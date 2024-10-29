@@ -55,7 +55,7 @@
         };
 
         g {
-            bindings = <&kp EQUAL>;
+            bindings = <&kp MINUS>;
             key-positions = <17 18>;
         };
     };
