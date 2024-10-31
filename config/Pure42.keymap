@@ -40,12 +40,12 @@
         };
 
         d {
-            bindings = <&kp NON_US_BACKSLASH>;
+            bindings = <&kp BACKSLASH>;
             key-positions = <9 8>;
         };
 
         e {
-            bindings = <&kp GRAVE>;
+            bindings = <&kp SINGLE_QUOTE>;
             key-positions = <19 18>;
         };
 
@@ -62,6 +62,11 @@
         ToggleNum {
             bindings = <&tog 2>;
             key-positions = <32 39>;
+        };
+
+        tilde {
+            bindings = <&kp GRAVE>;
+            key-positions = <29 28>;
         };
     };
 
