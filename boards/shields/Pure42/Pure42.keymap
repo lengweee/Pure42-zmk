@@ -40,12 +40,12 @@
         };
 
         d {
-            bindings = <&kp NON_US_BACKSLASH>;
+            bindings = <&kp BACKSLASH>;
             key-positions = <9 8>;
         };
 
         e {
-            bindings = <&kp GRAVE>;
+            bindings = <&kp SINGLE_QUOTE>;
             key-positions = <19 18>;
         };
 
@@ -63,6 +63,11 @@
             bindings = <&tog 2>;
             key-positions = <32 39>;
         };
+
+        tilde {
+            bindings = <&kp GRAVE>;
+            key-positions = <29 28>;
+        };
     };
 
     keymap {
@@ -79,10 +84,10 @@
 
         move_layer {
             bindings = <
-&kp F6      &kp F6        &kp F7        &kp F8        &kp F9                       &none     &kp PAGE_UP  &kp PAGE_DOWN  &none      &none
-&kp F1      &kp F2        &kp F3        &kp F4        &kp F5                       &kp LEFT  &kp DOWN     &kp UP_ARROW   &kp RIGHT  &none
-&bt BT_CLR  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bootloader                  &none     &kp HOME     &kp END        &none      &none
-&trans      &trans        &none         &trans        &trans       &trans  &trans  &trans    &trans       &trans         &trans     &trans
+&kp F6      &kp F6        &kp F7        &kp F8        &kp F9                       &none        &kp PAGE_UP  &kp PAGE_DOWN  &none      &none
+&kp F1      &kp F2        &kp F3        &kp F4        &kp F5                       &kp LEFT     &kp DOWN     &kp UP_ARROW   &kp RIGHT  &none
+&bt BT_CLR  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bootloader                  &bootloader  &kp HOME     &kp END        &none      &none
+&trans      &trans        &none         &trans        &trans       &trans  &trans  &trans       &trans       &trans         &trans     &trans
             >;
         };
 
