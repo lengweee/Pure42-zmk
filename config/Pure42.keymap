@@ -24,37 +24,37 @@
     combos {
         compatible = "zmk,combos";
 
-        a {
+        esc {
             bindings = <&kp ESCAPE>;
             key-positions = <21 22>;
         };
 
-        b {
+        tab {
             bindings = <&kp TAB>;
             key-positions = <12 11>;
         };
 
-        c {
+        caps {
             bindings = <&kp CAPSLOCK>;
             key-positions = <21 20>;
         };
 
-        d {
+        slash {
             bindings = <&kp BACKSLASH>;
             key-positions = <9 8>;
         };
 
-        e {
+        quote {
             bindings = <&kp SINGLE_QUOTE>;
             key-positions = <19 18>;
         };
 
-        f {
+        equal {
             bindings = <&kp EQUAL>;
             key-positions = <1 2>;
         };
 
-        g {
+        minus {
             bindings = <&kp MINUS>;
             key-positions = <7 8>;
         };
@@ -67,6 +67,16 @@
         tilde {
             bindings = <&kp GRAVE>;
             key-positions = <29 28>;
+        };
+
+        numpad {
+            bindings = <&to 3>;
+            key-positions = <12 13>;
+        };
+
+        numpad2 {
+            bindings = <&to 3>;
+            key-positions = <16 17>;
         };
     };
 
@@ -100,12 +110,12 @@
             >;
         };
 
-        layer_3 {
+        num_pad {
             bindings = <
-&trans  &trans          &kp UP_ARROW    &trans     &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans          &trans     &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans          &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp N7  &kp N8  &kp N9  &trans                  &kp FSLH      &kp N7  &kp N8  &kp N9   &kp MINUS
+&trans  &kp N4  &kp N5  &kp N6  &trans                  &kp LS(STAR)  &kp N4  &kp N5  &kp N6   &kp LS(PLUS)
+&trans  &kp N1  &kp N2  &kp N3  &trans                  &trans        &kp N1  &kp N2  &kp N3   &trans
+&trans  &trans  &kp N0  &trans  &trans  &trans  &trans  &trans        &trans  &kp N0  &kp DOT  &trans
             >;
         };
     };
