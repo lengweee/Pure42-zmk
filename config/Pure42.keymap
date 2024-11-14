@@ -70,12 +70,12 @@
         };
 
         numpad {
-            bindings = <&to 3>;
+            bindings = <&tog 3>;
             key-positions = <12 13>;
         };
 
         numpad2 {
-            bindings = <&to 3>;
+            bindings = <&tog 3>;
             key-positions = <16 17>;
         };
     };
