@@ -78,6 +78,20 @@
             bindings = <&mo 3>;
             key-positions = <16 17>;
         };
+
+        braces {
+            bindings = <&brace_back>;
+            key-positions = <26 27>;
+        };
+    };
+
+    macros {
+        brace_back: brace_back {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT>;
+            label = "BRACE_BACK";
+        };
     };
 
     keymap {
