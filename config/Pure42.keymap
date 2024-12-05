@@ -83,6 +83,11 @@
             bindings = <&brace_back>;
             key-positions = <26 27>;
         };
+
+        movement {
+            bindings = <&tog 1>;
+            key-positions = <20 29>;
+        };
     };
 
     macros {
