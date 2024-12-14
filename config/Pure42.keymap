@@ -79,7 +79,7 @@
             key-positions = <16 17>;
         };
 
-        braces {
+        bracket {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <26 27>;
         };
@@ -108,6 +108,26 @@
             bindings = <&brace_back>;
             key-positions = <27 28>;
         };
+
+        Copy {
+            bindings = <&Copy>;
+            key-positions = <23 22>;
+        };
+
+        Paste {
+            bindings = <&Paste>;
+            key-positions = <23 24>;
+        };
+
+        Left_brace {
+            bindings = <&none>;
+            key-positions = <3 4>;
+        };
+
+        Right_brace {
+            bindings = <&none>;
+            key-positions = <5 6>;
+        };
     };
 
     macros {
@@ -116,6 +136,20 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT>;
             label = "BRACE_BACK";
+        };
+
+        Copy: Copy {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_COMMAND &kp C>;
+            label = "COPY";
+        };
+
+        Paste: Paste {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_COMMAND &kp V>;
+            label = "PASTE";
         };
     };
 
