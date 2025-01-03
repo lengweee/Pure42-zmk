@@ -71,12 +71,12 @@
 
         numpad {
             bindings = <&to 1>;
-            key-positions = <12 13>;
+            key-positions = <2 3>;
         };
 
         numpad2 {
             bindings = <&to 1>;
-            key-positions = <16 17>;
+            key-positions = <6 7>;
         };
 
         bracket {
