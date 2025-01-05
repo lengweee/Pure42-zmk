@@ -36,7 +36,7 @@
 
         caps {
             bindings = <&kp CAPSLOCK>;
-            key-positions = <21 20>;
+            key-positions = <11 10>;
         };
 
         slash {
