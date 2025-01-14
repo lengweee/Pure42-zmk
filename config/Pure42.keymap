@@ -69,12 +69,12 @@
             key-positions = <29 28>;
         };
 
-        numpad {
+        numLayer {
             bindings = <&to 1>;
             key-positions = <2 3>;
         };
 
-        numpad2 {
+        numLayer2 {
             bindings = <&to 1>;
             key-positions = <6 7>;
         };
@@ -137,6 +137,11 @@
         Up {
             bindings = <&kp UP_ARROW>;
             key-positions = <20 17>;
+        };
+
+        numpad {
+            bindings = <&mo 3>;
+            key-positions = <12 13>;
         };
     };
 
