@@ -177,7 +177,7 @@
         ToRightTab: ToRightTab {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LG(LEFT_BRACE)>;
+            bindings = <&kp LG(RIGHT_BRACE)>;
             label = "TORIGHTTAB";
         };
     };
