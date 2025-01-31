@@ -96,7 +96,7 @@
 
         toggleBlueTooth {
             bindings = <&mo 4>;
-            key-positions = <38 33>;
+            key-positions = <32 39>;
         };
 
         plus {
@@ -142,6 +142,11 @@
         numpad {
             bindings = <&mo 3>;
             key-positions = <12 13>;
+        };
+
+        numLayer {
+            bindings = <&mo 1>;
+            key-positions = <38 33>;
         };
     };
 
