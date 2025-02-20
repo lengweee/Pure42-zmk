@@ -69,14 +69,14 @@
             key-positions = <29 28>;
         };
 
-        numLayer {
+        numLayerNo {
             bindings = <&to 1>;
-            key-positions = <2 3>;
+            key-positions = <2 3 1 0 4>;
         };
 
         numLayer2 {
             bindings = <&to 1>;
-            key-positions = <6 7>;
+            key-positions = <6 7 5 8 9>;
         };
 
         bracket {
