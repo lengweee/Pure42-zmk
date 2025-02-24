@@ -140,12 +140,12 @@
         };
 
         numpad {
-            bindings = <&mo 3>;
+            bindings = <&mo 1>;
             key-positions = <12 13>;
         };
 
         numLayer {
-            bindings = <&mo 1>;
+            bindings = <&tog 1>;
             key-positions = <38 33>;
         };
     };
