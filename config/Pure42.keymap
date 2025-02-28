@@ -145,7 +145,7 @@
         };
 
         FF2 {
-            bindings = <&kp F1>;
+            bindings = <&kp F2>;
             key-positions = <29 11>;
         };
 
