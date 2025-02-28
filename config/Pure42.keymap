@@ -69,16 +69,6 @@
             key-positions = <29 28>;
         };
 
-        numLayerNo {
-            bindings = <&to 1>;
-            key-positions = <2 3 1 0 4>;
-        };
-
-        numLayer2 {
-            bindings = <&to 1>;
-            key-positions = <6 7 5 8 9>;
-        };
-
         bracket {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <26 27>;
@@ -139,14 +129,39 @@
             key-positions = <20 17>;
         };
 
-        numpad {
+        numlayer1 {
             bindings = <&mo 1>;
             key-positions = <12 13>;
         };
 
-        numLayer {
+        numLayer2 {
             bindings = <&tog 1>;
             key-positions = <38 33>;
+        };
+
+        FF1 {
+            bindings = <&kp F1>;
+            key-positions = <10 29>;
+        };
+
+        FF2 {
+            bindings = <&kp F1>;
+            key-positions = <29 11>;
+        };
+
+        FF3 {
+            bindings = <&kp F3>;
+            key-positions = <29 12>;
+        };
+
+        FF4 {
+            bindings = <&kp F4>;
+            key-positions = <29 13>;
+        };
+
+        FF5 {
+            bindings = <&kp F5>;
+            key-positions = <29 14>;
         };
     };
 
