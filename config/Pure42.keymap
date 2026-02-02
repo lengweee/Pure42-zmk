@@ -35,7 +35,7 @@
         };
 
         caps {
-            bindings = <&kp CAPSLOCK>;
+            bindings = <&InputSwitch>;
             key-positions = <11 10>;
         };
 
@@ -199,6 +199,13 @@
             #binding-cells = <0>;
             bindings = <&kp LG(RIGHT_BRACE)>;
             label = "TORIGHTTAB";
+        };
+
+        InputSwitch: InputSwitch {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(RS(SPACE))>;
+            label = "INPUTSWITCH";
         };
     };
 
